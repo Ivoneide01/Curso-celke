@@ -9,8 +9,10 @@ app.get("/sobre-nid", function (req, res) {
     //res.send('helo word1');
     res.sendFile(__dirname + "/src/sobre-nid.html");// _dirname para carregar neste caminho 
 })
-app.get("/contato", function (req, res) {
-    res.send('helo word8');
+app.get("/contato-nid", function (req, res) {
+    //res.send('helo word8');
+    res.sendFile(__dirname + "/src/contato-nid.html");// _dirname para carregar neste caminho
+    
 })
 
 app.listen(8080, () =>{
