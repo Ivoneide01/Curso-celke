@@ -5,8 +5,9 @@ app.get("/", function (req, res) { //rotas
     //res.send('helo word11222');
     res.sendFile(__dirname + "/src/index.html");// _dirname para carregar neste caminho 
 })
-app.get("/sobre", function (req, res) {
-    res.send('helo word1');
+app.get("/sobre-nid", function (req, res) {
+    //res.send('helo word1');
+    res.sendFile(__dirname + "/src/sobre-nid.html");// _dirname para carregar neste caminho 
 })
 app.get("/contato", function (req, res) {
     res.send('helo word8');
